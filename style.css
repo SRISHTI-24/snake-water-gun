@@ -1,0 +1,47 @@
+*{
+    margin: auto;
+}
+h1{
+    margin-top: 25px;
+    margin-left: 650px;
+}
+.restart-btn {
+    margin-top: 25px;
+    margin-left: 48%;
+    background: blue;
+    color: white;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+  }
+  
+  .restart-btn:hover {
+    background-color: red;
+    color: white;
+  }
+  .score{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1.2rem;
+  color: black;
+  background-color: aqua;
+  width: 100%;
+  }
+  .choices{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: rgb(25, 119, 220);
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  }
+  .choice-btn{
+    margin-left: 200px;
+    transition: transform .2s;
+  }
+  .choice-btn:hover{
+    transform: scale(1.5);
+  }
